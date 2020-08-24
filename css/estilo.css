@@ -1,0 +1,28 @@
+/*Layout*/
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: white;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(240, 195, 202);
+}
+
+nav a i {
+    text-align: center;
+    size: 1px;
+}
+
+span {
+    margin-top: 20px;
+    color: white;
+    
+}
