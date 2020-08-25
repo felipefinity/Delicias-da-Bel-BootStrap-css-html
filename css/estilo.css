@@ -16,13 +16,19 @@ nav {
     background-color: rgb(240, 195, 202);
 }
 
-nav a i {
-    text-align: center;
-    size: 1px;
-}
-
 span {
     margin-top: 20px;
-    color: white;
-    
+    color: white;    
+}
+
+.capa {
+    margin-left: 250px;
+}
+
+.corIcon {
+    color: black;
+}
+
+section div span{
+    color: pink;
 }
