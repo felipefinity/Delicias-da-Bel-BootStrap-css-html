@@ -9,7 +9,7 @@ body {
 body {
     background: white;
     background-attachment: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: serif;
 }
 
 nav {
@@ -44,7 +44,16 @@ section div span{
 
 h1 {
     text-align: center;
-    color: pink;
-    font-size: 100px;
+    color: white;
     margin-top: 20px;
+    background: pink;
+}  
+
+.personalizar {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.personalizar2 {
+    padding-left: 10px;
 }
