@@ -9,7 +9,7 @@ body {
 body {
     background: white;
     background-attachment: fixed;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
@@ -31,4 +31,20 @@ span {
 
 section div span{
     color: pink;
+}
+
+.caixa {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.produtos {
+  padding: 10px 0;  
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+    font-size: 100px;
+    margin-top: 20px;
 }
