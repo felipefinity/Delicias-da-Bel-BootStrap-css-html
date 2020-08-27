@@ -50,10 +50,32 @@ h1 {
 }  
 
 .personalizar {
-    padding-left: 15px;
-    padding-top: 30px;
+   padding-left: 5px;
 }
 
 .personalizar2 {
-    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.personalizar3 {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: rgb(240, 195, 202);
+    padding: 40px 0px 20px 0px;
+    position: relative;
+}
+
+footer, div {
+    color: white;
+}
+
+footer, div, a {
+    color: white;
+    font-size: 20px;
+}
+footer, a:hover {
+    text-decoration: none;
+    color: rgb(129, 48, 48);
 }
