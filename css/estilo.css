@@ -79,3 +79,87 @@ footer, a:hover {
     text-decoration: none;
     color: rgb(129, 48, 48);
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+   #home img {
+     width: 330px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   #home a span {
+       font-size: 25px;
+       color: brown;
+   }
+
+   #bolos img {
+       padding-top: 5px;
+   }
+
+   #salgados img {
+       padding-top: 5px;
+   }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #home img {
+        width: 380px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #home a span {
+        font-size: 40px;
+        color: pink;
+    }
+
+    #bolos img {
+        padding-top: 5px;
+    }
+
+    #salgados img {
+        padding-top: 5px;
+    }
+
+    #logo-footer {
+        padding-left: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #home img {
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+   
+      #home a span {
+          font-size: 50px;
+      } 
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #home img {
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    #home a span {
+        font-size: 60px;
+    }
+
+}
